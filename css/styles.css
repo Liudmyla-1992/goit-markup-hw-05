@@ -460,7 +460,6 @@ margin:8px 0;
          line-height: 1.5;
          letter-spacing: 0.02em;
          color: #ffffff;
-         margin-bottom: 16px;
 }
 .social-media {
     height: 80px;
@@ -543,8 +542,7 @@ input::placeholder {
         transition: 0.2s
     }
 .form-fild-label {
-        display: none;
-        visibility: hidden;
+       visibility: hidden;
         color: #fff;
         font-weight: 400;
         font-size: 12px;
@@ -572,6 +570,7 @@ input::placeholder {
             justify-content: center;
             flex-direction: row;
             gap: 16px;
+            margin-top: 16px;
 }
 .icon-button {
     fill: #fff;

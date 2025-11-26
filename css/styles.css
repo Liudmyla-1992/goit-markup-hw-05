@@ -544,15 +544,12 @@ margin:8px 0;
 .subscribe {
     position: relative;   
 }
-.subscribe-list {
+.subscribe-form {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
     height: 40px;    
-}
-.subscribe-li{
-        align-items: center;
 }
 .form-fild-email {
 position: relative;
@@ -584,6 +581,8 @@ input::placeholder {
                 font-size: 12px;
                 opacity: 0.7;
                 transition: 0.2s;
+                visibility: hidden;
+                display: none;
 }
 .form-input:focus +.form-fild-label,
 .form-input:not(:placeholder-shown) +.form-fild-label {

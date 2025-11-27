@@ -541,19 +541,15 @@ margin:8px 0;
 .social-icons-one .link:focus {
     background-color: #31d0aa;
 }
-.subscribe {
-    position: relative;   
-}
 .subscribe-form {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
     height: 40px;    
+    gap: 24px;
 }
 .form-fild-email {
-position: relative;
-width: 264px;
+    width: 264px;
 }
 .form-input-email{
         width: 264px;
@@ -575,12 +571,11 @@ input::placeholder {
         transition: 0.2s
     }
 .form-fild-label {
-        display: block;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: 0.04em;
-        color: #8e8f99;
+        color: #8e8f99;        
     }
 .form-input:focus +.form-fild-label,
 .form-input:not(:placeholder-shown) +.form-fild-label {

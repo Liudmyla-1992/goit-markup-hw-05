@@ -486,13 +486,13 @@ margin:8px 0;
     height: 72px;
     max-width: 264px;
     }
-.text{
+.text {
         font-weight: 500;
-         font-size: 16px;
-         line-height: 1.5;
-         letter-spacing: 0.02em;
-         color: #ffffff;
-         margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
 }
 .social-media {
     height: 80px;
@@ -541,29 +541,30 @@ margin:8px 0;
 .social-icons-one .link:focus {
     background-color: #31d0aa;
 }
+.subscribe {
+    display: block;
+}
 .subscribe-form {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 40px;    
     gap: 24px;
 }
 .form-fild-email {
     width: 264px;
 }
-.form-input-email{
+.form-input-email {
         width: 264px;
         height: 40px;
-        padding-left: 16px;
-        font-size: 12px;
-        color: #ffffff;
-        background: #2E2F42;
         border: 1px solid #ffffff;
-        border-radius: 4px;
         background-color: transparent;
+        font-size: 12px;
         line-height: 2;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #fff;
+    }
 input::placeholder {
     color: #ffffff;
         font-weight: 400;
@@ -571,11 +572,7 @@ input::placeholder {
         transition: 0.2s
     }
 .form-fild-label {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-        color: #8e8f99;        
+               
     }
 .form-input:focus +.form-fild-label,
 .form-input:not(:placeholder-shown) +.form-fild-label {
@@ -606,7 +603,6 @@ input::placeholder {
             min-width: 165px;
             height: 40px;
             font-family: "Roboto", sans-serif;
-            cursor: pointer;
 }
 .icon-button {
     fill: #fff;

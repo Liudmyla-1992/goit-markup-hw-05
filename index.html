@@ -387,12 +387,10 @@
                  <div class="subscribe">
                    <p class="text">Subscribe</p>
                        <form class="subscribe-form">
-                             <div class="subscribe form-fild-email">
-                                       <label for="user-email-contakt" class="form-fild-label"></label>
-                                        <input type="email" id="user-email-contakt" class="form-input-email" placeholder="E-mail" required>
-                            </div>
+                            <label for="user-email-contakt" class="form-fild-label"></label>
+                            <input type="email" id="user-email-contakt" class="form-input-email" placeholder="E-mail" required>
                             <button type="submit" class="subscribe-button">Subscribe 
-                                         <svg class="icon-button" width="24" height="20">
+                                         <svg class="icon-button" width="24" height="24">
                                              <use href="./images/icons.svg#icon-airplane"></use>
                                              </svg>
                                              </button>            
@@ -411,8 +409,8 @@
                 <div class="form-field">
                     <label for="user-name" class="form-modal-label">Name</label>
                     <div class="input-modal">
-                    <input type="text" id="user-name" class="form-input-modal" required>
-                    <svg class="modal-icons" width="18" height="28">
+                    <input type="text" id="user-name" name="user-name" class="form-input-modal" required>
+                    <svg class="modal-icons" width="18" height="24">
                       <use href="./images/icons.svg#icon-person-black"></use>
                     </svg>
                         </div>
@@ -420,8 +418,8 @@
                 <div class="form-field">
                     <label for="user-phone" class="form-modal-label">Phone</label>
                     <div class="input-modal">
-                        <input type="tel" id="user-phone" class="form-input-modal" required>
-                        <svg class="modal-icons" width="18" height="28">
+                        <input type="tel" id="user-phone" name="user-phone" class="form-input-modal" required>
+                        <svg class="modal-icons" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone-black"></use>
                         </svg>
                     </div>
@@ -429,20 +427,18 @@
                 <div class="form-field">
                     <label for="user-email" class="form-modal-label">Email</label>
                     <div class="input-modal">
-                        <input type="email" id="user-email" class="form-input-modal" required>
-                            <svg class="modal-icons" width="18" height="28">
+                        <input type="email" id="user-email" name="user-email" class="form-input-modal" required>
+                            <svg class="modal-icons" width="18" height="24">
                                 <use href="./images/icons.svg#icon-email-black"></use>
                             </svg>
                         </div>
                 </div>
                 <div class="form-field-comment">
                     <label for="user-comment" class="form-modal-label">Comment</label>
-                    <div class="input-modal">
-                        <textarea class="form-text-modal" id="user-comment" placeholder="Text input"></textarea>
-                    </div>
+                        <textarea class="form-text-modal" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
                 </div>
                     <div class="privacy-checkbox">
-                    <input type="checkbox" id="user-privacy" class="privacy-checkbox-input privacy-visually-hidden" name="user-privacy" value="true">
+                    <input type="checkbox" id="user-privacy" class="privacy-checkbox-input visually-hidden" name="user-privacy" value="true">
                     <label for="user-privacy" class="form-modal-label">
                         <span class="checked-element">
                             <svg class="check-icon" width="10" height="8">

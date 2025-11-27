@@ -609,10 +609,11 @@ input::placeholder {
             align-items: center;
             justify-content: center;
             flex-direction: row;
-            gap: 16px;
+            min-width: 165px;
 }
 .icon-button {
     fill: #fff;
+    margin-left: 16px;
 }
 .subscribe-button:hover,
 .subscribe-button:focus {
@@ -757,18 +758,6 @@ input::placeholder {
     outline: none;
     border-color: #4d5ae5;
 }
-.privacy-visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 .checked-element {
     display: inline-flex;
     width: 16px;
@@ -787,7 +776,7 @@ input::placeholder {
 }
 .privacy-checkbox-input:checked+.form-modal-label .checked-element {
     background-color: #404bbf;
-    border-color: #404bbf;
+    border-color: none;
     fill: #f4f4fd;
 }
 .privacy-policy {

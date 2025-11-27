@@ -693,6 +693,9 @@ input::placeholder {
     color: #2e2f42;
     margin-bottom: 16px;
     }
+.modal-form {
+    gap: 24px;
+}
 .form-field {
     margin-bottom: 8px;
  }
@@ -776,7 +779,7 @@ input::placeholder {
 }
 .privacy-checkbox-input:checked+.form-modal-label .checked-element {
     background-color: #404bbf;
-    border-color: none;
+    border: none;
     fill: #f4f4fd;
 }
 .privacy-policy {
